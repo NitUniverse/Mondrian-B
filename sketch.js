@@ -54,11 +54,7 @@ function draw(){
   quad(((windowHeight/50)*5.3),((windowHeight/30)*19),((windowHeight/30)*13),((windowHeight/30)*19),((windowHeight/30)*13),(windowHeight),((windowHeight/50)*5.3),(windowHeight));
   quad(((windowHeight/50)*22.5),((windowHeight/50)*47),((windowHeight/50)*39.2),((windowHeight/50)*47),((windowHeight/50)*39.2),(windowHeight),((windowHeight/50)*22.5),(windowHeight));
   quad(((windowHeight/50)*40),((windowHeight/30)*19),(windowHeight),((windowHeight/30)*19),(windowHeight),(windowHeight),((windowHeight/50)*40),(windowHeight));
-
-  //text
-  stroke('black');
-  fill('black');
-  text(change, 50, 50);
+  
 }
 
 function windowResized() {
